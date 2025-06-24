@@ -36,7 +36,7 @@ const setup = async () => {
         if (context.state === 'suspended') {
             await context.resume();
         }
-
+        
         // Set the "play" parameter to 1 (on)
         play.value = 1;
 
